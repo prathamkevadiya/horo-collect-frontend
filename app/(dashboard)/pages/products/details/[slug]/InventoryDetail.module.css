@@ -1,0 +1,65 @@
+.mainContainer {
+    padding: 2rem;
+}
+
+.imageCard {
+    position: relative;
+    border: none;
+}
+
+.productImage {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.videoButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.productTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.reviewSection {
+    font-size: 14px;
+    color: #666;
+}
+
+.priceSection {
+    font-size: 20px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.productPrice {
+    margin-right: 10px;
+}
+
+.mrpText {
+    text-decoration: line-through;
+    color: #6c757d;
+    margin-right: 5px;
+}
+
+.colorSection, .sizeSection {
+    margin-top: 1rem;
+}
+
+.addToCartButton {
+    background-color: #dc3545;
+    color: white;
+    margin-right: 1rem;
+}
+
+.wishlistButton {
+    border-color: #dc3545;
+    color: #dc3545;
+}

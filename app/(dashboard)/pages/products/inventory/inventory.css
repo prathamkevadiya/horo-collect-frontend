@@ -1,0 +1,69 @@
+/* Inventory.css */
+
+.custom-table {
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Add spacing between rows */
+}
+
+.custom-row {
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.custom-row:hover {
+    background-color: #f8f9fa; /* Light gray hover effect */
+}
+
+.product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.new-condition {
+    background-color: #e7f5ff; /* Light blue for new */
+}
+
+.used-condition {
+    background-color: #fff3cd; /* Light yellow for used */
+}
+
+/* Pagination button styles */
+.btn-outline-secondary {
+    border: 1px solid #dee2e6;
+    transition: background-color 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #e2e6ea; /* Slightly darker on hover */
+}
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-row {
+    transition: background-color 0.3s;
+}
+
+.custom-row:hover {
+    background-color: #f8f9fa;
+}
+
+.product-image {
+    width: 50px;
+    height: auto;
+}
+
+.new-condition {
+    background-color: #d4edda;
+}
+
+.used-condition {
+    background-color: #f8d7da;
+}
+
+.custom-table th, .custom-table td {
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+//
+// Extended from bootstrap
+//
+
+
+// filter invert in to dark
+.filter-invert-white {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.filter-invert-dark {
+    -webkit-filter: brightness(0) invert(0);
+    filter: brightness(0) invert(0);
+}
+
+.bg-gray-400 {
+    background-color: $gray-400;    
+}
+
+.auth-bg{
+    margin: 0;
+    background: linear-gradient(
+        to bottom, 
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7) 
+    ),
+    url("../../../assets/images/WhatsApp\ Image\ 2024-11-20\ at\ 22.26.46_3c40a3fc.jpg"); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    min-width: 100%;
+
+}
+
+// .bg-light{
+//     background-image: url("../../../assets/images/WhatsApp\ Image\ 2024-11-20\ at\ 22.26.46_3c40a3fc.jpg");
+
+// }
